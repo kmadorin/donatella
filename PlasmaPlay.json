@@ -1,0 +1,101 @@
+{
+  "allowHttpBackend": false,
+  "backendCommand": "node backend -c \"ct946kc7vojz07mehqimjnorn0dy41\" -s \"TWV3KZjqIQ9IkG3EolAPu8kPg/V0Jff+UlRJme+k/Ao=\"",
+  "backendFolderName": "extension-getting-started/services",
+  "certificateExceptions": [],
+  "extensionViews": [
+    {
+      "id": "1",
+      "label": "plasmaplay",
+      "channelId": "469067122",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "kmadorin",
+      "type": "video_overlay",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "linked": false,
+      "linkedUserId": "",
+      "mode": "viewer",
+      "isPopout": false,
+      "role": "Broadcaster",
+      "orientation": "Portrait",
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      }
+    }
+  ],
+  "manifest": {
+    "anchor": "video_overlay",
+    "assetUrls": [],
+    "authorName": "Cyberia",
+    "bitsEnabled": false,
+    "canInstall": true,
+    "configUrl": "config.html",
+    "configurationLocation": "none",
+    "description": "Extension for donations",
+    "eulaTosUrl": "",
+    "hasChatSupport": false,
+    "iconUrl": "",
+    "iconUrls": {},
+    "id": "ct946kc7vojz07mehqimjnorn0dy41",
+    "installationCount": -42,
+    "liveConfigUrl": "",
+    "name": "PlasmaPlay",
+    "panelHeight": 0,
+    "privacyPolicyUrl": "",
+    "requestIdentityLink": false,
+    "requiredBroadcasterAbilities": [],
+    "screenshotUrls": [],
+    "sku": "",
+    "state": "Testing",
+    "subscriptionsSupportLevel": "none",
+    "summary": "PlasmaPlay extension",
+    "supportEmail": "madorinkv@yandex.ru",
+    "vendorCode": "",
+    "version": "0.0.1",
+    "viewerSummary": "",
+    "viewerUrl": "",
+    "viewerUrls": {
+      "mobile": "mobile.html",
+      "videoOverlay": "video_overlay.html",
+      "component": "video_component.html"
+    },
+    "views": {
+      "mobile": {
+        "viewerUrl": "mobile.html"
+      },
+      "videoOverlay": {
+        "viewerUrl": "video_overlay.html",
+        "canLinkExternalContent": false
+      },
+      "component": {
+        "viewerUrl": "video_component.html",
+        "aspectWidth": 0,
+        "aspectHeight": 0,
+        "aspectRatioX": 300,
+        "aspectRatioY": 200,
+        "autoscale": true,
+        "scalePixels": 1024,
+        "targetHeight": 4000,
+        "size": 0,
+        "zoom": false,
+        "zoomPixels": 0,
+        "canLinkExternalContent": false
+      },
+      "config": {
+        "viewerUrl": "config.html",
+        "canLinkExternalContent": false
+      }
+    },
+    "whitelistedConfigUrls": [],
+    "whitelistedPanelUrls": []
+  },
+  "frontendCommand": "",
+  "frontendFolderName": "extension-getting-started/public",
+  "name": "PlasmaPlay",
+  "version": 1
+}
